@@ -1,0 +1,6 @@
+{
+  "name": "To'yona - Taklifnoma Yasovchi",
+  "description": "To'y, o'g'il to'y (sunnat to'yi), nikoh va yubileylar uchun o'zbekcha (lotin va kirill) hamda rus tilida zamonaviy taklifnomalar yaratish xizmati.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

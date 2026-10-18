@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-playfair {
+    font-family: 'Playfair Display', serif;
+  }
+  .font-cormorant {
+    font-family: 'Cormorant Garamond', serif;
+  }
+  .font-script {
+    font-family: 'Marck Script', cursive;
+  }
+  .font-body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+  }
+  .text-shadow-gold {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.7), 0 0 12px rgba(212, 175, 55, 0.4);
+  }
+  .text-shadow-dark {
+    text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8);
+  }
+}
+
+/* Custom scrollbars for neat desktop/mobile appearance */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(28, 25, 23, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(180, 140, 60, 0.4);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(212, 175, 55, 0.7);
+}
